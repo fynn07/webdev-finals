@@ -162,3 +162,120 @@ p{
     font-size: 20px;
     
 }
+
+.product-section{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-section *{
+    flex: 1;
+}
+
+.product-section .left-side img{
+    width: 280px;
+}
+
+.product-section .right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-section .right-side p{
+    font-size: 40px;
+}
+
+.product-section .right-side a{
+    text-decoration: none;
+    color: black;
+    background-color: #FFBD59;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    display: inline-block;
+    width: 200px;
+}
+
+.portfolio-section{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #FFBD59;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.portfolio-section .top-content{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.portfolio-section .image-wrapper .image-list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    overflow-x: auto;
+}
+
+.portfolio-section .image-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+.portfolio-section .image-wrapper .image-list .image-item{
+    width: 500px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px 30px 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.footer *{
+    flex: 1;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-media{
+    display: flex;
+    gap: 1px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.footer .social-media *{
+    flex-grow: 0;
+}
+
+.footer .social-media a{
+    background-color: white;
+    padding: 3px;
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer .social-media a img{
+    width: 30px;
+}
