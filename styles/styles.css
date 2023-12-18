@@ -72,6 +72,12 @@ p{
     width: 90px;
 }
 
+.header .right-side button:hover{
+    color: black;
+    background-color: #FFBD59;
+    border: 2px solid black;
+}
+
 .hero{
     padding-top: 120px;
     padding-bottom: 150px;
@@ -279,4 +285,94 @@ p{
 
 .footer .social-media a img{
     width: 30px;
+}
+
+.product-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFBD59;
+    border-bottom: 2px solid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.product-hero .splash-background{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+.product-hero .splash-background p{
+    font-size: 100px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.product-hero .splash-background span{
+    color:#f8e7cd;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.product-product-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-product-section .top-column{
+    text-align: center;
+    font-size: 32px;
+}
+
+.product-product-section .bottom-column{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product-product-section .bottom-column .plan{
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.product-product-section .bottom-column .plan .plan-info{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 40px;
+}
+
+
+.product-product-section .bottom-column .plan .plan-info button{
+    padding: 5px;    
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.product-product-section .bottom-column .plan .plan-details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+
+.product-product-section .bottom-column .plan .plan-details p{
+    font-weight: lighter;
 }
