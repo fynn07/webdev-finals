@@ -431,6 +431,11 @@ p{
     font-size: 40px;
 }
 
+.co-founder-section .top p{
+    border-bottom: 6px solid black;
+    display: inline-block;
+}
+
 .co-founder-section .bottom{
     display: flex;
     gap: 60px;
@@ -463,3 +468,8 @@ p{
     font-size: 40px;
     font-weight:400;
 }
+
+.co-founder-section .bottom .co-worker p{
+    font-size: 22px;
+}
+
