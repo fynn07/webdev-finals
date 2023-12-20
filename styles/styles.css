@@ -620,3 +620,82 @@ p{
     text-align: justify;
     font-size: 20px;
 }
+
+.top-portion{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.top-portion *{
+    flex-basis: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.top-portion .left-side h1{
+    font-size: 50px;
+}
+
+.top-portion .left-side p{
+    font-size: 23px;
+}
+
+.top-portion .right-side img{
+   width: 500px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 90px;
+   border: 3px solid black;
+}
+
+.bottom-portion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #FFBD59;
+    border: 2px solid black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bottom-portion p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bottom-portion .professional-portfolio-container{
+    display: flex;
+    gap: 30px;
+
+}
+
+.bottom-portion .professional-portfolio-container .section-job{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bottom-portion .professional-portfolio-container .section-job *{
+    flex: 1;
+    font-size: 20px;
+}
+
+.bottom-portion .professional-portfolio-container .section-job .title-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+}
+
+.bottom-portion .professional-portfolio-container .section-job .title-section h2{
+    margin-bottom: 10px;
+}
