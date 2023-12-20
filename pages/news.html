@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/news-script.js"></script>
     <title>Company: News Page</title>
 </head>
 <body>
@@ -23,12 +24,68 @@
             </div>
         </div>
 
-        <div class="shortcut-news-container">
+        <div class="news-wrapper">
+            <h1>News and Arcticles</h1>
+            <div class="news-list">
+                <div class="news-1 news">
+                    <button onclick="changeArcticleReact()"><img src="../resources/News/react.png" alt="news 1" class="image-item"></button>
+                    <p>React 18 Released: Unleashing New Features and Performance Enhancements</p>
+                </div>
+                <div class="news-2 news">
+                    <button onclick="changeArcticleHacker()"><img src="../resources/News/hacker.webp" alt="news 2" class="image-item"></button>
+                    <p>Global Cybersecurity Alert: Rise in Sophisticated Hacking Threats Sparks Concerns</p>
+                </div>
+                <div class="news-3 news">
+                    <button onclick="changeArcticleBusiness()"><img src="../resources/News/business.jpeg" alt="new 3" class="image-item"></button>
+                    <p>Navigating the Evolving Web Design Business Landscape in 2023</p>
+                </div>
+                <div class="news-4 news">
+                    <button onclick="changeArcticleGame()"><img src="../resources/News/game.jpeg" alt="news 4" class="image-item"></button>
+                    <p>The Metamorphosis of Video Games: Shaping Culture, Fostering Diversity, and Redefining Entertainment</p>
+                </div>
+                <div class="news-5 news">
+                    <button onclick="changeArcticleRust()"><img src="../resources/News/rust.jpeg" alt="news 5" class="image-item"></button>
+                    <p>Rust Programming Language: A Paradigm Shift in Systems Programming</p>
+                </div>
+                <div class="news-6 news">
+                    <button onclick="changeArcticleCreativity()"><img src="../resources/News/art.webp" alt="news 6" class="image-item"></button>
+                    <p>Unleashing Creativity in Web Design: Crafting Digital Experiences Beyond Boundaries</p>
+                </div>
 
+            </div>
         </div>
 
-        <div class="news-container">
+        <div class="news-container content">
+           <div class="news-headline">
+            <h1 id="headline">React 18 Released: Unleashing New Features and Performance Enhancements</h1>
+           </div> 
 
+           <div class="news-details">
+            <p id="headline-content">In a highly anticipated move, the React team has officially released React 18, the latest version of the popular JavaScript library for building user interfaces. This release brings a host of new features, improvements, and performance enhancements that promise to elevate the development experience for React developers worldwide.
+
+                One of the standout features of React 18 is the introduction of Concurrent Mode as a stable release. Concurrent Mode is designed to make React applications more responsive by allowing them to remain fast and gracefully adjust to the user's interaction. This is a major step forward in optimizing the user experience for applications with complex and dynamic interfaces.
+                
+                React 18 also introduces automatic batching, a feature aimed at reducing the number of renders in certain scenarios. By grouping state updates within a single batch, React 18 minimizes unnecessary re-renders, leading to improved performance and a smoother user interface.
+                
+                The release includes new APIs such as startTransition and useTransition to help developers manage the user experience during state transitions more efficiently. These additions empower developers to create more seamless and responsive applications by controlling how updates are prioritized and displayed to the user.
+                
+                In response to the growing demand for improved developer tools, React 18 introduces a new experimental feature called "React Server Components." This feature allows developers to build UI components that can be rendered on the server, offering the potential for significant performance gains by offloading rendering work from the client to the server.
+                
+                React 18 is also expected to play a crucial role in supporting the latest advancements in web development, including the growing trend of building Jamstack applications. With its improved server rendering capabilities and enhanced developer tools, React 18 positions itself as a key player in the evolving landscape of modern web development.
+                
+                React continues to be a driving force in the world of front-end development, and the release of React 18 underscores the commitment of the React team to providing developers with the tools and features they need to build cutting-edge and performant user interfaces. As developers explore and adopt React 18, the React ecosystem is poised for a new wave of innovation and creativity in web application development.
+            </p>
+           </div>
+        </div>
+
+        <div class="footer content">
+            <a href="pages/partners.html">Partners</a>
+            <p>Copyright@2023</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" class="logo"><img src="../resources/homepage/social_media/facebook.png" alt="Facebook Logo" class="soc-med"></a>
+                <a href="https://www.instagram.com" target="_blank" class="logo"><img src="../resources/homepage/social_media/instagram.png" alt="Instagram Logo" class="soc-med"></a>
+                <a href="https://www.twitter.com" target="_blank" class="logo"><img src="../resources/homepage/social_media/twitter.png" alt="Twitter Logo" class="soc-med"></a>
+            </div>
         </div>
    </div> 
 </body>
