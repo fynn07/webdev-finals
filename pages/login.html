@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/login-script.js"></script>
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Document</title>
 </head>
@@ -28,13 +29,13 @@
                 <h1>LOGIN FORM</h1>
                 <div class="user-name">
                     <p>Username: </p>
-                    <input type="text">
+                    <input type="text" id="user">
                 </div>
                 <div class="pass-word">
                     <p>Password: </p>
-                    <input type="password">
+                    <input type="password" id="pass">
                 </div>
-                <button>LOGIN</button>
+                <button onclick="login()">LOGIN</button>
             </div>
         </div>
 
