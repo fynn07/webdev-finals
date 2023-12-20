@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/billing-script.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Company: Billings Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header content">
+            <div class="left-side">
+                <img src="../resources/logo.png" alt="logo">
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="about_us.html">ABOUT</a></li> 
+                </ul>
+                <a href="login.html"><button>LOG IN</button></a>
+            </div>
+        </div>
+    
+
+        <div class="billing-head content">
+            <h1>BILLING</h1>
+        </div>
+
+        <div class="billing-body content">
+            <div class="left-side">
+                <p class="method">Payment Method </p>
+                <div class="email input">
+                <p>Email Address</p>
+                <input type="text"> 
+                </div>
+
+                <div class="card input">
+                    <p>Card Details</p>
+                    <input type="text"> 
+                </div>
+
+                <div class="ccv input">
+                    <p>CCV</p>
+                    <input type="text">
+                </div>
+
+                <div class="card-holder input">
+                    <p>Card Holder</p>
+                    <input type="text">
+                </div>
+
+            </div>
+            <div class="right-side">
+                <div class="total-cost">
+                    <h2>Total Cost</h2>
+                    <p id="cost">0</p>
+                    <p>Pesos</p>
+                </div>
+
+                <div class="items-purchased" id="items-purch">
+                    
+                </div>
+                <div class="add-item">
+                    <label for="add-option"></label>
+                    <select name="option" id="option-name">
+                        <option value="10000">Basic Website</option>
+                        <option value="30000">General Website</option>
+                        <option value="50000">Pro Website</option>
+                    </select>
+                    <button onclick="addItem()">Add Item</button>
+                </div>
+            </div>   
+        </div>
+        <div class="purchase-button">
+                <button>Purchase</button>
+        </div>
+        <div class="footer content">
+            <a href="partners.html">Partners</a>
+            <p>Copyright@2023</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" class="logo"><img src="../resources/homepage/social_media/facebook.png" alt="Facebook Logo" class="soc-med"></a>
+                <a href="https://www.instagram.com" target="_blank" class="logo"><img src="../resources/homepage/social_media/instagram.png" alt="Instagram Logo" class="soc-med"></a>
+                <a href="https://www.twitter.com" target="_blank" class="logo"><img src="../resources/homepage/social_media/twitter.png" alt="Twitter Logo" class="soc-med"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

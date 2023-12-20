@@ -699,3 +699,93 @@ p{
 .bottom-portion .professional-portfolio-container .section-job .title-section h2{
     margin-bottom: 10px;
 }
+
+.billing-head{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.billing-body .left-side .method{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.billing-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.billing-body .left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    border-right: 2px solid black;
+}
+
+.billing-body .left-side .input{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.billing-body .left-side .input input{
+    width: 400px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.billing-body .right-side{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 3px solid black;
+    background-color: #FFBD59;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.billing-body .right-side .total-cost{
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.billing-body .right-side .total-cost h2{
+    margin: 0;
+}
+
+.billing-body .right-side .items-purchased{
+    background-color: #f6dfc3;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.purchase-button{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.purchase-button button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 15px;
+
+}
