@@ -17,6 +17,12 @@ function addItem(){
     element.appendChild(para);
 }
 
+function purchase(){
+    let values = document.getElementById('cost');
+    values = values.innerHTML;
+    alert("Purchase of " + values + " successful!");
+}
+
 function redirect(){
     window.location.href = "billing.html"
 }
